@@ -12,6 +12,22 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+    <script defer src="./js/handleSectionButtonClick.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div class="buttons">
+      <button value="incoming" class="sectionButton sectionButtonIncoming">
+        Incoming
+      </button>
+      <button value="outgoing" class="sectionButton sectionButtonOutgoing">
+        Outgoing
+      </button>
+      <button value="summary" class="sectionButton sectionButtonSummary">
+        Summary
+      </button>
+    </div>
+    <div class="section sectionIncoming hidden">Incoming section</div>
+    <div class="section sectionOutgoing hidden">Outgoing section</div>
+    <div class="section sectionSummary summary">Summary section</div>
+  </body>
 </html>
