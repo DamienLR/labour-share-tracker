@@ -26,8 +26,36 @@
         Summary
       </button>
     </div>
-    <div class="section sectionIncoming hidden">Incoming section</div>
-    <div class="section sectionOutgoing hidden">Outgoing section</div>
-    <div class="section sectionSummary summary">Summary section</div>
+
+    <p>Logins</p>
+    <form>
+      <input class="inputLogins" type="text" />
+
+      <p class="sentToFrom">Sent from</p>
+      <select>
+        <option value="pick">Pick</option>
+        <option value="p2r">P2R</option>
+        <option value="singles">Singles</option>
+        <option value="afe">AFE</option>
+        <option value="ship dock">Ship dock</option>
+        <option value="stow">Stow</option>
+        <option value="decant">Decant</option>
+        <option value="receive dock">Receive dock</option>
+        <option value="icqa">ICQA</option>
+      </select>
+      <p class="timeReceivedSent">Time received</p>
+      <input class="inputTime" type="time" />
+      <button class="formSubmitButton">Confirm selections</button>
+    </form>
+
+    <div class="section sectionIncoming">
+      <h2>Received labour share</h2>
+    </div>
+    <div class="section sectionOutgoing hidden">
+      <h2>Sent labour share</h2>
+    </div>
+    <div class="section sectionSummary hidden">
+      <h2>Summary</h2>
+    </div>
   </body>
 </html>
